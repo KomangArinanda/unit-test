@@ -16,7 +16,7 @@ public class TodoRepository {
 
   public boolean store(Todo todo) {
     todos.add(todo);
-
+    System.out.println(todos.add(todo));
     return true;
   }
 

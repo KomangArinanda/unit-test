@@ -25,7 +25,6 @@ public class TodoService {
 
   public boolean saveTodo(String name, TodoPriority priority) {
     Todo todo = new Todo(name, priority);
-
     return todoRepository.store(todo);
   }
 
